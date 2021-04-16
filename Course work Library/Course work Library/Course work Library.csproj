@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Course_work_Library</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Paomedia-Small-N-Flat-Book.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.8.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="4.8.0" />
+    <PackageReference Include="MainApp.IconPack" Version="1.0.2" />
+    <PackageReference Include="MySqlConnector" Version="1.3.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="19.1.0.56" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>

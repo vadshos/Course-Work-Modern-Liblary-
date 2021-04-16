@@ -1,0 +1,42 @@
+[
+  {
+    "NameCategory": "FANTASY",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "HORROR",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "LITERARY",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "NON-FICTION",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "SCIENCE FICTION",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "CHILDREN'S",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "HISTORICAL FICTION",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "MYSTERY&THRILLER",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "BIOGRAPHIES&HISTORY",
+    "PathToBooks": ""
+  },
+  {
+    "NameCategory": "ROMANCE",
+    "PathToBooks": ""
+  }
+]

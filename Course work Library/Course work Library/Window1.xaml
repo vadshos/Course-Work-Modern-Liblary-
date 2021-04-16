@@ -1,0 +1,65 @@
+﻿<Window x:Class="Course_work_Library.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course_work_Library" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None"
+         MouseDown="Window_MouseDown"
+        Title="Categories" Height="500" Width="800">
+    <Grid>
+
+        <Border CornerRadius="10" Grid.RowSpan="2">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FAAF08" Offset="2.0"/>
+                    <GradientStop Color="#FA812F" Offset="0.35"/>
+                    <GradientStop Color="#FA4032" Offset="0.7"/>
+                    <GradientStop Color="#FED3E2" Offset="1"/>
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Width="780">
+                
+            <iconPacks:PackIconBoxIcons  Kind="RegularArrowBack"
+                                     
+                                     MouseDoubleClick="PackIconBoxIcons_MouseDoubleClick"
+                                         Margin="30"
+                                            Foreground="White" Width="36" Height="25" RenderTransformOrigin="0.128,0.21"/>
+                <iconPacks:PackIconBoxIcons Kind="SolidExit"
+                                            Width="30"
+                                            MouseDoubleClick="PackIconBoxIconsExit_MouseDoubleClick"
+                                            VerticalAlignment="Top"
+                                            HorizontalAlignment="Right"
+                                            Margin="650,30,530,30"
+                                            Foreground="White" RenderTransformOrigin="0.7,2.662"/>
+              </StackPanel>
+            <TextBox 
+            
+            IsReadOnly="True"
+                         FontFamily="Helvetice"
+                         FontWeight="ExtraBold"
+                         Text="Categories of books"
+                         FontSize="35"
+                      
+                         HorizontalAlignment="Center"
+                         Foreground="White"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         Width="350"
+                         HorizontalContentAlignment="Center"
+                         Opacity="1.5"
+                         Height="40"
+                         Margin="0,15,0,0"/>
+            <StackPanel Margin="45,50,45,45">
+
+                <ListBox x:Name="categList" Loaded="ListBox_Loaded" Background="#F86622" FontSize="20" Foreground="White" FontFamily="Helvetice" FontWeight="DemiBold" Padding="10,12,17,5" SelectionChanged="categList_SelectionChanged" />
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,101 @@
+﻿<Window x:Class="Course_work_Library.WindowsListBooks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Course_work_Library" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        WindowStyle="None"
+         AllowsTransparency="True"
+         Background="Transparent"
+        MouseDown="Window_MouseDown"
+        Title="WindowsListBooks" Height="610" Width="1000">
+    <Grid>
+        <Border CornerRadius="10" Grid.RowSpan="2">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FAAF08" Offset="0.1"/>
+                    <GradientStop Color="#FA812F" Offset="0.35"/>
+                    <GradientStop Color="#FA4032" Offset="0.7"/>
+                    <GradientStop Color="#FED3E2" Offset="1"/>
+
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+        <iconPacks:PackIconBoxIcons Kind="SolidExit"
+                                            
+                                            MouseDoubleClick="PackIconBoxIconsExit_MouseDoubleClick"
+                                            VerticalAlignment="Top"
+                                            HorizontalAlignment="Right"
+                                            Margin="30"
+                                            Foreground="White"/>
+        <iconPacks:PackIconBoxIcons  Kind="RegularArrowBack"
+                                     
+                                     MouseDoubleClick="PackIconBoxIcons_MouseDoubleClick"
+                                         Margin="25,26,0,0"
+                                            Foreground="White" Width="36" Height="25" RenderTransformOrigin="0.128,0.21">
+
+        </iconPacks:PackIconBoxIcons>
+        <StackPanel Width="850">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox 
+           
+            IsReadOnly="True"
+                         FontFamily="Helvetice"
+                         FontWeight="ExtraBold"
+                         Text="Find : "
+                         TextAlignment="Center"
+                         FontSize="25"
+                         Foreground="White"
+                         Background="#ff9300"
+                         BorderThickness="0"
+                         Width="95"
+                           Padding="3"
+                    
+                         HorizontalContentAlignment="Center"
+                         Opacity="1.5"
+                         Height="42"
+                         
+                         Margin="45,15,0,0"/>
+                <TextBox
+                TextChanged="TextBox_TextChanged"
+                FontFamily="Helvetice"
+                           Padding="3"
+                         FontWeight="ExtraBold"
+                         
+                         FontSize="20"
+                         Foreground="Black"
+                         Background="White"
+                         BorderThickness="0"
+                         Width="550"
+                         HorizontalContentAlignment="Left"
+                         Opacity="1.5"
+                        Margin="0,18,0,8"
+                         Height="33"/>
+            </StackPanel >
+            <ScrollViewer  CanContentScroll="True" HorizontalScrollBarVisibility="Auto" Height="450">
+
+                <ListBox    x:Name="bookList" Loaded="listBooks_Loaded"  Background="#F86622" FontSize="20" Foreground="White" FontFamily="Helvetice"  FontWeight="DemiBold" Padding="10,12,17,5" SelectionChanged="bookList_SelectionChanged" >
+                    <ListBox.ItemContainerStyle >
+                        <Style TargetType="{x:Type ListBoxItem}" >
+                            <Setter Property="BorderBrush" Value="White"/>
+                            <Setter Property="Background" Value="#F86622"/>
+                            <Setter Property="BorderThickness" Value="2.5"/>
+                            <Setter Property="Margin" Value="5"/>
+                            <Setter Property="Padding" Value="5"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Foreground" Value="White"/>
+                                    <Setter Property="BorderBrush" Value="White"/>
+                                    <Setter Property="BorderThickness" Value="0.5"/>
+                                </Trigger>
+
+                            </Style.Triggers>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>

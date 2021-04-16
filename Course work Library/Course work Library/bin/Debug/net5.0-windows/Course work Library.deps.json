@@ -1,0 +1,450 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Course work Library/1.0.0": {
+        "dependencies": {
+          "MahApps.Metro.IconPacks": "4.8.0",
+          "MahApps.Metro.IconPacks.Material": "4.8.0",
+          "MainApp.IconPack": "1.0.2",
+          "MySqlConnector": "1.3.2",
+          "Newtonsoft.Json": "13.0.1",
+          "Syncfusion.PdfViewer.WPF": "19.1.0.56",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "runtime": {
+          "Course work Library.dll": {}
+        }
+      },
+      "MahApps.Metro.IconPacks/4.8.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BootstrapIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.BoxIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Codicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Entypo.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.EvaIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FeatherIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FileIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.FontAwesome.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Fontaudio.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.ForkAwesome.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Ionicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.JamIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Material.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialDesign.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.MaterialLight.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Microns.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Modern.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Octicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PicolIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.PixelartIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RPGAwesome.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RadixIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.RemixIcon.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.SimpleIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Typicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Unicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.VaadinIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.WeatherIcons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.Zondicons.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          },
+          "lib/netcoreapp3.1/MahApps.Metro.IconPacks.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.8.0.6"
+          }
+        }
+      },
+      "MahApps.Metro.IconPacks.Material/4.8.0": {},
+      "MainApp.IconPack/1.0.2": {
+        "runtime": {
+          "lib/MainApp.Enums.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/MainApp.IconPack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "MySqlConnector/1.3.2": {
+        "runtime": {
+          "lib/net5.0/MySqlConnector.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "Syncfusion.Compression.Base/19.1.0.56": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Compression.Base.dll": {
+            "assemblyVersion": "19.1500.0.56",
+            "fileVersion": "19.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.1.0.56": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.1.0.56",
+            "fileVersion": "19.1.0.56"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/19.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.1.0.56",
+          "Syncfusion.Licensing": "19.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Pdf.Base.dll": {
+            "assemblyVersion": "19.1500.0.56",
+            "fileVersion": "19.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.PdfViewer.WPF/19.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.1.0.56",
+          "Syncfusion.Licensing": "19.1.0.56",
+          "Syncfusion.Pdf.Wpf": "19.1.0.56",
+          "Syncfusion.Shared.WPF": "19.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.PdfViewer.WPF.dll": {
+            "assemblyVersion": "19.1500.0.56",
+            "fileVersion": "19.1500.0.56"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/19.1.0.56": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.1.0.56"
+        },
+        "runtime": {
+          "lib/net5.0-windows/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "19.1500.0.56",
+            "fileVersion": "19.1500.0.56"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.2": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.2",
+            "fileVersion": "4.700.20.37001"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.2",
+            "fileVersion": "4.700.20.37001"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.2",
+            "fileVersion": "4.700.20.37001"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {}
+    }
+  },
+  "libraries": {
+    "Course work Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MahApps.Metro.IconPacks/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G00GRXwBOzEIryBKOzbKH01SUUGMYKkIg3GQe0G/d1oZoRUJAeWN0Iw+WTs8ARU0CHzzvMAV00Z5y1mCB4pUPg==",
+      "path": "mahapps.metro.iconpacks/4.8.0",
+      "hashPath": "mahapps.metro.iconpacks.4.8.0.nupkg.sha512"
+    },
+    "MahApps.Metro.IconPacks.Material/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KZ6BRhXtFlcKuuh5n13ezexZSuyVOo7O+tQwacLRvzfl421P+/rWfRO1rcsHimvo2Bpm4cG8uTj7KXagsioJyg==",
+      "path": "mahapps.metro.iconpacks.material/4.8.0",
+      "hashPath": "mahapps.metro.iconpacks.material.4.8.0.nupkg.sha512"
+    },
+    "MainApp.IconPack/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iU1243DoeJFYMs3E9xPlkWFmpYw0tnBA3u68GZWjl3GLvBpsvr3llk5GSL4pDE1i3KcGOhasQ18TxX3bwwA2oQ==",
+      "path": "mainapp.iconpack/1.0.2",
+      "hashPath": "mainapp.iconpack.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "MySqlConnector/1.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yz5MDctGTTS8OeFdmdChG8n4bu93L2m/UH9JYkQaB7ibwBdP7jKEbf5YZkCOoH2AcZwkyga0jy1zDE9XyqE+Iw==",
+      "path": "mysqlconnector/1.3.2",
+      "hashPath": "mysqlconnector.1.3.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Base/19.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kpr7CutlILKq9ZPdxIPR7tiD8YvY1jVgp3uRLvuKbm2iI7p8Rc5CGpKs1Z20Jf3YVtsATSRwxpMzyGje+8vGwg==",
+      "path": "syncfusion.compression.base/19.1.0.56",
+      "hashPath": "syncfusion.compression.base.19.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u8KW/8CiS23enePafJTzVabs6MW2/NtqqxyHq1xTKAj0z6DaFsfjjRvTpdQLjtnimCb5KjPbtZmO4BVp+fdvAg==",
+      "path": "syncfusion.licensing/19.1.0.56",
+      "hashPath": "syncfusion.licensing.19.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Wpf/19.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-60PGXkLLi3fWZU+Vhf4doBzGGccA+VXefaxTyyXqNxG2C4VfD/HJ/Z99EQ288A7Xw3s72IbuYfYPTy3EN8GytA==",
+      "path": "syncfusion.pdf.wpf/19.1.0.56",
+      "hashPath": "syncfusion.pdf.wpf.19.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.PdfViewer.WPF/19.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-51oTk9r0Kf+hshSK/WQBhGZqLCmRjPXTj9lAFr9UQenUcaU+Czi37L7O+sZRuH5pw76UOyAap9zjGdMrpYq/Yw==",
+      "path": "syncfusion.pdfviewer.wpf/19.1.0.56",
+      "hashPath": "syncfusion.pdfviewer.wpf.19.1.0.56.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/19.1.0.56": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M1PGAhKb6/wZG8FH1+cWQxN4o3J7lJpcIiJEaJ9AEvZo9d6qjEJ17octVndrZGc3vqbGcwH1DxBUOrRsnW2gpg==",
+      "path": "syncfusion.shared.wpf/19.1.0.56",
+      "hashPath": "syncfusion.shared.wpf.19.1.0.56.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-80vGtW6uLB4AkyrdVuKTXYUyuXDPAsSKbTVfvjndZaRAYxzFzWhJbvUfeAKrN+128ycWZjLIAl61dFUwWHOOTw==",
+      "path": "system.data.sqlclient/4.8.2",
+      "hashPath": "system.data.sqlclient.4.8.2.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    }
+  }
+}
